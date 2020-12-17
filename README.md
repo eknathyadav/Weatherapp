@@ -7,7 +7,7 @@ A simple weather app built using Django framework.
    ```
 2. Install Django framework.
    ```
-   pip install Django
+   pip install django
    ```
 3. Access the weather folder.
 4. Run the server.
