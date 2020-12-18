@@ -27,10 +27,17 @@
                <input class="fields" type="text" name="City">
                <button class="fields"type="submit">Search</button>
            </Form>
+           {% if city != None %}
            <div class = "temp">
                <h3>{{ city }}, {{ country }}</h3>
                <h1> {{ temp }} &#8451</h1>
            </div>
+           {% else %}
+           <div class = "temp">
+               <h3>Please enter a valid city</h3>
+           </div>
+           {% endif %}
+
        </div>
        <div id="footer" class="foot">
             &#169 2020 <strong>Eknath Yadav</strong>
